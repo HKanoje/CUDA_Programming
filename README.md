@@ -12,4 +12,5 @@ Implemented vector addition by writing a simple CUDA program. Explored how to la
 - How to allocate and manage device (GPU) memory using `cudaMalloc`, `cudaMemcpy`, and `cudaFree`.
 
 **output:**
+
 ![CUDA Logo](output_images/day1.png)
