@@ -27,3 +27,16 @@ Worked on matrix addition using CUDA. Designed the grid and block layout to hand
 **output:**
 
 ![CUDA Logo](output_images/day2.png)
+
+## Day 3
+**Summary:**  
+Implemented matrix-vector multiplication using CUDA. Each thread was set up to compute the dot product between a matrix row and the given vector. Optimized performance using shared memory.  
+
+**Learned:**  
+- How to perform dot products in parallel.
+- Efficiently handling shared memory to avoid excessive global memory accesses and improve memory coalescing.
+- Launching kernels for 1D or 2D thread configurations based on input data.  
+
+**output:**
+
+![CUDA Logo](output_images/day3.png)
