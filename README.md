@@ -40,3 +40,16 @@ Implemented matrix-vector multiplication using CUDA. Each thread was set up to c
 **output:**
 
 ![CUDA Logo](output_images/day3.png)
+
+## Day 4
+**Summary:**  
+Worked on parallel reduction to compute the partial sum of an array. Implemented a tree-based reduction algorithm, minimizing warp divergence for better performance.  
+
+**Learned:**  
+- The concept of reduction in parallel programming.
+- Techniques for minimizing warp divergence and balancing workload across threads.
+- How to use shared memory effectively in reduction operations. 
+
+**output:**
+
+![CUDA Logo](output_images/day4.png)
